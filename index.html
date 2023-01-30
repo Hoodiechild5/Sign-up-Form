@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vacation Time!</title>
+    <title>Sign Up Form</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <nav>
-        Win A Vacation of a life Time!!
+        Enter the Contest for the Vacation of a Lifetime
     </nav>
     <main>
         <h2>Vacation Contest Sign-Up Form</h2>
-        <form> <!-- TODO: Set Action and Method Properties -->
-            <form method="Get" action="results.html">
+         <!-- TODO: Set Action and Method Properties -->
+            <form method="GET" action="results.html">
             <div>
                 <label for="firstname">Your First Name</label>
                 <input type="text" id="firstname" name="firstname" minlength="2" maxlength="35" required>
@@ -89,8 +89,8 @@
                             <option value="WY">Wyoming</option>
                         </select>
     
-                        <label for="City">Your Zip</label>
-                        <input type="text" id="Zip" name="Zip">       
+                        <label for="zip">Your Zip</label>
+                        <input type="number" id="zip" name="zip">       
                     
                 
                 </fieldset>
@@ -119,7 +119,7 @@
                 <div> 
                     <!-- TODO: Color input for selecting favorite color -->
                     <label for="color">Favorite Color</label>
-                    <input type="color" id="color" name= "color">
+                    <input type="color" id="color" name="color">
                     </div>
                 <h3>Please select any add-ons you'd like:</h3>
                 <div>
@@ -139,8 +139,6 @@
                     <label for="drinks">All-inclusive Drinks Package</label>
                 </div>
             
-        
-           
             <!-- TODO: Checkboxes for selecting extra add-ons -->
         </fieldset>
             <!-- TODO: Submit Button -->
